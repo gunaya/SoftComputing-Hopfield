@@ -174,9 +174,9 @@ function prosesBtn_Callback(hObject, eventdata, handles)
            if i == j
                bobot(i,j) = 0;
            else
-               %bobot(i,j) = (targetA(i)*targetA(j)) + (targetB(i)*targetB(j));
+               bobot(i,j) = (targetA(i)*targetA(j)) + (targetB(i)*targetB(j));
                %bobot(i,j) = (2*targetA(i) -1) + (2*targetB(j) -1);
-               bobot(i,j) = 1/2 * ((targetA(i)*targetA(j)) + (targetB(i)*targetB(j)));
+               bobot(i,j) = 1/length * (targetA(i))
            end
        end    
     end
