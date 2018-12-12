@@ -1,2 +1,3 @@
 # SoftComputing-Hopfield
-![screenshot](ss.png)
+
+![alt text](https://raw.githubusercontent.com/gunaya/SoftComputing-Hopfield/master/screenshot/ss.png)
